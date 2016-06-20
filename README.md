@@ -1,30 +1,30 @@
 # Git-algorithmersBook-SheetCheat
 This is a sheet cheat of Git book written by @algorithmers
 
-__لإنشـاء مسـتودع فـارغ :__
+## :لإنشـاء مسـتودع فـارغ
 
 ```
 git init 
 ```
 
-__لإضافة ملف :__
+## :لإضافة ملف
 
 ```
 git add <file_name>
 ```
-__مثال على ذلك:__
+__:مثال على ذلك__
 ```
 git add home.php
 git add contact.php
 git add admin.php
 ```
-__لإضافة العديد من الملفات :__
+## :لإضافة العديد من الملفات
 
 ```
 git add .
 ```
 
-__ للتخزيـن الفعـلي للتعديـلات و حفظها :__
+## :للتخزيـن الفعـلي للتعديـلات و حفظها
 
 ```
 git commit -m 'reason here..'
