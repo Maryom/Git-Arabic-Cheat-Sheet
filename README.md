@@ -49,11 +49,9 @@ git tag -l "v1.7*"
 ## :لإنشاء Annotated Tag 
 
 ```
-git tag -a v1.8.0 -m 'version 1.8'
+git tag -a v1.8.0 -m 'version 1.8'  # للتوضيح💡 Tag name is: v1.8.0, After -m you just write a message that will be saved with the tag.
 ```
-__:للتوضيح💡__
 
-### يتم إنشاء Tag بإسم v1.8.0 وأما
 
 
 
