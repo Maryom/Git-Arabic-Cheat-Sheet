@@ -30,13 +30,13 @@ git add .
 git commit -m 'reason here..'
 ```
 
-## :لعرض قائمة Tags الموجودة في مستودع معين
+## :لعرض قائمة Tags 
 
 ```
 git tag
 ```
 
-## :للبحث عن Tag او مجموعة Tags
+## :للبحث عن Tags 
 
 ```
 git tag -l <صيغة معينة>
@@ -46,7 +46,7 @@ __:مثال على ذلك__
 ```
 git tag -l "v1.7*"
 ```
-## :لإنشاء Annotated Tag 
+## :Annotated Tag لإنشاء
 
 ```
 git tag -a v1.8.0 -m 'version 1.8'  # للتوضيح💡 Tag name is: v1.8.0, After -m you just write a message that will be saved with the tag.
