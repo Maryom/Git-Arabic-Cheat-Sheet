@@ -116,7 +116,7 @@ git rm myFile.py
 git commit -m 'Delete myFile.py 🐍'
 ```
 
-__:txt in settings folder مثال على ذلك يوضح كيفية حذف جميع ملفات__
+__:txt in settings folder مثال يوضح كيفية حذف جميع ملفات__
 ```
 git rm settings/\*.txt
 git commit -m 'Delete all .txt files in settings folder'
@@ -229,8 +229,8 @@ git log --since=2.weeks
 ```
 git log -S <النص الذي تريده>
 ```
+__:myFunction مثال يوضح البحث عن__
 
-__:مثال يوضح البحث عن myFunction__
 ```
 git log -S myFunction
 ```
@@ -250,11 +250,54 @@ __:أهـم (وليـس كل) الخيـارات التـي تسـاعدك عـ�
 git commit --amend
 ```
 
-__مثال يوضح إضافة ملف بعد عمل :commit__
+__:commit مثال على ذلك يوضح كيفية إضافة ملف بعد عمل__
 ```
 git commit -m 'initial commit'
 git add file.cpp
 git commit --amend
 ```
 
- 
+## :Remote Repository لإضافة 
+
+```
+git remote add <remote_name> <remote_URL>
+```
+
+__:مثال على ذلك__
+```
+git remote add calc https://github.com/algorithmers/calc
+```
+
+## : لمعرفـة المسـتودعات التـي نتعامـل معهـا عـن
+
+بعـد
+```
+git remote -v
+```
+
+## : للحصـول عـلى قائمة بالأسماء المسـتعارة أو المـؤشرات التـي تشير لتلـك المسـتودعات بـدون التفاصيـل الأخـرى التـي ترافقهـا
+```
+git remote 
+```
+
+## :  لنسـخ مسـتودع شـيفرة و جلبـه إلى  Working Directory
+```
+git clone [repository_URL]
+```
+
+__:مثال على ذلك__
+```
+git clone https://github.com/algorithmers/my.git
+```
+
+## : تحديـد اسـم خـاص بالمجلـد إذا لم تكـن تريـد الإسم الإفـتراضي 
+```
+git clone [repository_URL] [new-name]
+```
+
+__:مثال على ذلك__
+```
+git clone https://github.com/algorithmers/my.git proj
+```
+
+
