@@ -116,7 +116,6 @@ git rm myFile.py
 git commit -m 'Delete myFile.py 🐍'
 ```
 
-
 __:txt in settings folder مثال على ذلك يوضح كيفية حذف جميع ملفات__
 ```
 git rm settings/\*.txt
@@ -140,7 +139,7 @@ git rm --cached myFile.py
 git mv <source> <destination>
 ```
 
-__:مثال على توضح نقل base.rb ➡️ lib folder__
+__مثال يوضح نقل base.rb ➡️ lib folder:__
 ```
 git mv base.rb lib/base.rb
 ```
