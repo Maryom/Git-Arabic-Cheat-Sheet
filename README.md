@@ -250,7 +250,7 @@ __:أهـم (وليـس كل) الخيـارات التـي تسـاعدك عـ�
 git commit --amend
 ```
 
-__:commit مثال على ذلك يوضح كيفية إضافة ملف بعد عمل__
+__:commit مثال يوضح كيفية إضافة ملف بعد عمل__
 ```
 git commit -m 'initial commit'
 git add file.cpp
@@ -260,7 +260,7 @@ git commit --amend
 ## :Remote Repository لإضافة 
 
 ```
-git remote add <remote_name> <remote_URL>
+git remote add [remote_name] [remote_URL]
 ```
 
 __:مثال على ذلك__
@@ -268,9 +268,8 @@ __:مثال على ذلك__
 git remote add calc https://github.com/algorithmers/calc
 ```
 
-## : لمعرفـة المسـتودعات التـي نتعامـل معهـا عـن
+## : لمعرفـة المسـتودعات التـي نتعامـل معهـا عن بعد
 
-بعـد
 ```
 git remote -v
 ```
@@ -280,7 +279,7 @@ git remote -v
 git remote 
 ```
 
-## :  لنسـخ مسـتودع شـيفرة و جلبـه إلى  Working Directory
+لنسـخ مسـتودع شـيفرة و جلبـه إلى ## :Working Directory
 ```
 git clone [repository_URL]
 ```
@@ -298,6 +297,60 @@ git clone [repository_URL] [new-name]
 __:مثال على ذلك__
 ```
 git clone https://github.com/algorithmers/my.git proj
+```
+
+ لجلـب البيانـات الموجـودة في :Remote Repository ##
+```
+git fetch [remote-name]
+```
+
+__:مثال على ذلك__
+```
+git fetch origin
+```
+
+## : رفـع البيانـات أو التعديـلات
+
+الجديـدة التـي قـام بهـا المطـور إلى مسـتودع الشـيفرة الموجـود عـلى السيرفر
+
+```
+git push [remote-name] [branch-name]
+```
+
+__:مثال على ذلك__
+```
+git push origin master
+```
+
+لمعرفـة تفاصيـل أكثر حـول :Remote Repository ##
+```
+git remote show [remote-name]
+```
+
+__:مثال على ذلك__
+```
+git remote show origin
+```
+
+لأعادة تسمية الإسم المختـصر الـذي قمـت بإضافتـه لمسـتودع شـيفرة موجـود عـلى :Server ##
+```
+git remote rename [old-remote-name] [new-remote-name]
+```
+
+__:مثال على ذلك__
+```
+git remote rename dev devrepo
+```
+
+## :لحذف المستودع
+
+```
+git remote rm [remote-name]
+```
+
+__:مثال على ذلك__
+```
+git remote rm devrepo
 ```
 
 
