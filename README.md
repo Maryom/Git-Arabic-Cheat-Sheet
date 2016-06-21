@@ -278,8 +278,8 @@ git remote -v
 ```
 git remote 
 ```
+## :Working Directory لنسـخ مسـتودع شـيفرة و جلبـه إلى
 
-لنسـخ مسـتودع شـيفرة و جلبـه إلى ## :Working Directory
 ```
 git clone [repository_URL]
 ```
@@ -298,8 +298,8 @@ __:مثال على ذلك__
 ```
 git clone https://github.com/algorithmers/my.git proj
 ```
+## :Remote Repository لجلـب البيانـات الموجـودة في
 
- لجلـب البيانـات الموجـودة في :Remote Repository ##
 ```
 git fetch [remote-name]
 ```
@@ -309,9 +309,7 @@ __:مثال على ذلك__
 git fetch origin
 ```
 
-## : رفـع البيانـات أو التعديـلات
-
-الجديـدة التـي قـام بهـا المطـور إلى مسـتودع الشـيفرة الموجـود عـلى السيرفر
+## : رفـع البيانـات أو التعديـلات الجديـدة التـي قـام بهـا المطـور إلى مسـتودع الشـيفرة الموجـود عـلى السيرفر
 
 ```
 git push [remote-name] [branch-name]
@@ -321,8 +319,8 @@ __:مثال على ذلك__
 ```
 git push origin master
 ```
+## :Remote Repository لمعرفـة تفاصيـل أكثر حـول
 
-لمعرفـة تفاصيـل أكثر حـول :Remote Repository ##
 ```
 git remote show [remote-name]
 ```
@@ -332,7 +330,8 @@ __:مثال على ذلك__
 git remote show origin
 ```
 
-لأعادة تسمية الإسم المختـصر الـذي قمـت بإضافتـه لمسـتودع شـيفرة موجـود عـلى :Server ##
+## :Server لإعادة تسمية الإسم المختـصر الـذي قمـت بإضافتـه لمسـتودع شـيفرة موجـود عـلى
+
 ```
 git remote rename [old-remote-name] [new-remote-name]
 ```
